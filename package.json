@@ -1,0 +1,28 @@
+{
+  "name": "bibdup",
+  "version": "0.0.1",
+  "description": "Find duplicate bibtex files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/brlebtag/bibdup.git"
+  },
+  "keywords": [
+    "bibtex",
+    "duplicate"
+  ],
+  "author": "Bruno Lebtag <bruno@lebtag.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brlebtag/bibdup/issues"
+  },
+  "homepage": "https://github.com/brlebtag/bibdup#readme",
+  "dependencies": {
+    "bibtex-parse": "^2.1.0",
+    "commander": "^5.1.0",
+    "leven": "^3.1.0"
+  }
+}
